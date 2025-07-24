@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Reviewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Upload Your Resume</h1>
+    <div class="upload-box" id="uploadBox">
+      <p>Drag & Drop your CV here<br>or click to upload</p>
+      <input type="file" id="fileInput" accept=".pdf">
+    </div>
+    <p id="fileNameDisplay" class="file-name"></p>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <button id="analyzeBtn">Analyze CV</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
